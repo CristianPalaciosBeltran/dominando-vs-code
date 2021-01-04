@@ -29,7 +29,9 @@ li {
     border-radius: 10px;   
 }
 
-
+a {
+    margin: 0 3rem 0 0;
+}
 
 small {
     color:  #3498db;
@@ -37,8 +39,10 @@ small {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .exercise {
-    width: 50%;
+    width: 100%;
 }
